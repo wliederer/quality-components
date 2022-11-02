@@ -1,0 +1,21 @@
+.sudoku-input {
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
+  width: 50px;
+}
+.sudoku-row {
+  display: flex;
+}
+.sudoku-square {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  width: 33%;
+}
+.sudoku-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
